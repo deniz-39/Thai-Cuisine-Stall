@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member registration</title>
+    <link rel="stylesheet" href="css/home.css"/>
+</head>
+<body>
+    <main>
+        <nav>
+            <img src="pictures/logo.png" alt="logo.png" title="logo">
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="Order.html" target="_blank">Order</a></li>
+                <li><a href="About_us.html" target="_blank">About Us</a></li>
+                <li><a href="Member.html" target="_blank">Member</a></li>
+            </ul>
+        </nav>
+        <section class="memberpageflex">
+            <form class="form2" method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+                <fieldset class="member">
+                    <p class="register">Member Registration</p>
+                    <section class="side">
+                        <div class="flexmember">
+                            <label>Login ID</label>
+                            <input name="ID" type="text" required
+                            placeholder="Username" />
+                        </div>
+                        <div class="flexmember">
+                            <label>Full Name</label>
+                            <input name="name" type="text" required
+                            placeholder="Enter your full name" />
+                        </div>
+                    </section>
+                    <section class="side">
+                        <div class="flexmember">
+                            <label>Password</label>
+                            <input name="Password" type="text" required
+                            placeholder="Minimum 16 characters" pattern="[A-Za-z0-9]{16,50}"/>
+                        </div>
+                        <div class="flexmember">
+                            <label>Gender</label>
+                            <input name="gender" type="radio" value="M" checked/>Male &nbsp; &nbsp;
+                            <input name="gender" type="radio" value="F" />Female
+                        </div>
+                    </section>
+                    <section class="side">
+                        <div class="flexmember">
+                            <label>Email Address</label>
+                            <input name="email" type="email" required />
+                        </div>
+                        <div class="flexmember">
+                            <label>Phone</label>
+                            <input name="telNo" type="tel" required
+                            placeholder="Type a number" 
+                            pattern="[0-9]{8}"/>
+                        </div>
+                    </section>
+                    <div class="flexmember">
+                        <label>Physical Address</label>
+                        <textarea name="address" rows="3" cols="30" required
+                        placeholder="Enter your Address"></textarea>
+                    </div>
+                    <div class="flexmember">
+                        <label>Favourite Food (option)</label>
+                        <textarea name="fav-food" rows="3" cols="30"></textarea>
+                    </div>
+                    <div class="member-button-div">
+                        <input class="member-button" type="submit" value="Register" />
+                        <input class="member-button" type="reset" value="Reset" />
+                    
+                    </div> 
+
+                </fieldset>
+            </form>
+
+            <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+                <fieldset class="loginfieldset">
+                    <p class="register">Member Login</p>
+                    <div class="center">
+                        <div class="memberlogin">
+                            <label>Login ID:</label><br/>
+                            <input name="ID" type="text" required
+                            placeholder="Username"  />
+                        </div>
+                        <div class="memberlogin">
+                            <label>Email:</label><br/>
+                            <input name="email" type="email" required
+                            placeholder="Enter your Email" />
+                        </div>
+                        <div class="memberlogin">
+                            <label>Password:</label><br/>
+                            <input name="password" type="text" required
+                            pattern="[A-Za-z0-9]{16,50}" 
+                            placeholder="Enter your Password" />
+                        </div>
+                    </div>
+                    <div class="member-button-div">
+                        <input class="member-button" type="submit" value="Login" />
+                    </div> 
+
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <p>COPYRIGHT &copy; 2025 ALL RIGHTS RESERVED BY NYP KOUFU</p>
+        </footer>
+    </main>
+</body>
+</html>

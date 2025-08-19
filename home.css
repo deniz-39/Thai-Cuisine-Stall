@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1266px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../pictures/main_background.png);
+    background-size: contain;
+    background-attachment: fixed;
+}
+nav {
+    background-image: url(../pictures/Screenshot\ 2025-02-04\ 203716.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;
+    background-color: #b97f07;
+    height: 140px;
+}
+nav img {
+    width: 170px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+
+nav ul{
+    text-align: center;
+    padding: 0.5em 250px;
+    display: flex;
+    padding: 40px 370px 40px 60px;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.5em;
+    height: 100px;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav a:link{
+    color: white;
+}
+nav a:visited{
+    color: #a72d07;
+}
+nav a:hover{
+    color: antiquewhite;
+}
+#signature {
+    color: #d5930c;
+    padding: 100px 40% 100px 8%;
+}
+.signature {
+    background-image: url(../pictures/red_template.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    background-color: #793515;
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+.signature  span {
+    color: #EF3340;
+}
+.click {
+    font-size: 20px;
+    background-color: beige;
+    color: #d5930c;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    width: fit-content;
+    text-align: center;
+    margin-left: 8%;
+    transition: transform 0.2s;
+}
+.signature a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #793515;
+}
+
+.click a:hover {
+    background-color: #793515;
+    color: beige;
+}
+.click:hover {
+    background-color: #793515;
+    transform: scale(1.05);
+}
+.introduction {
+    text-align: center;
+    font-size: 3em;
+    height: 400px;
+}
+.introduction h4,h3 {
+    color: #a72d07;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.introduction h4 {
+   margin-top: 120px;
+}
+.introduction h1 {
+    color: #b97f07;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex {
+    display: flex;
+}
+.bestcombo {
+    position: relative;
+    background-color: #b97f07;
+    height: 600px;
+    background-image: url(../pictures/Bannerbackground1.png);
+    background-size: cover;
+}
+.bestcombo img {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.combo1 {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #793515;
+    height: 300px;
+    width: 250px;
+    color: #d3a973;
+    transition: transform 0.2s;
+}
+.combo2 {
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #793515;
+    height: 300px;
+    width: 250px;
+    color: #d3a973;
+    transition: transform 0.2s;
+}
+.combo1:hover {
+    transform: scale(1.05);
+    background-color: #d3a973;
+    color: #793515;
+}
+.combo2:hover {
+    transform: scale(1.05);
+    background-color: #d3a973;
+    color: #793515;
+}
+.combo1 p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.combo2 p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+footer {
+    background-color: #793515;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #d3a973;
+    font-size: 20px;
+}
+
+
+
+/* This is menu page CSS */
+
+
+.menu nav img {
+    width: 170px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+.menu img {
+    width: 300px;
+    height: 300px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin:0 20px;
+}
+.menubox {
+    width: 350px;
+    height: 500px;
+    border: 5px solid #d5930c;
+    border-radius: 20px;
+    text-align: center;
+    margin: 30px 0;
+    background-color: antiquewhite;
+    transition: transform 0.2s;
+}
+.menubox:hover {
+    transform: scale(1.05);
+}
+.menubox img {
+    margin: 20px;
+    border-radius: 20px;
+}
+.food {
+    background-color: #c4391d;
+    height: 50px;
+    color: antiquewhite;
+    font-style: oblique;
+    font-size: 30px;
+    padding: 5px 0;
+}
+.price {
+    height: 20px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #d3a973;
+    height: 30px;
+    font-size: 30px;
+    font-style: oblique;
+    color: #c4391d;
+    padding: 5px 0;
+    font-weight: bolder;
+    margin: 10px auto 0 auto;
+}
+.flex a {
+    text-decoration: none;
+}
+.menutitle {
+    text-align: center;
+    font-size: 3.5em;
+    color: #c4391d;
+}
+#menuMain {
+    border-radius: 20px;
+    background-color: #d3a973;
+    margin: 30px 50px 70px 50px ;
+    padding-top: 10px ;
+}
+#menuSides {
+    border-radius: 20px;
+    background-color: #d3a973;
+    margin:0 50px 70px 50px ;
+    padding-top: 20px;
+}
+.menuhead{
+    text-align: center;
+    font-size: 3.5em;
+    color: #d3a973;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+@media screen and (max-width: 601px) and (min-width: 600px) {
+    main{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+
+
+/*This is oreder page CSS*/
+
+
+.order {
+    background-color: #d3a973;
+    border: 3px dashed #793515;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexorder {
+    display: flex;
+    margin: 20px 20px ;
+    width: 1000px;
+    height: 170px;
+    padding: 20px 50px;
+    border: 3px double #793515;
+    background-color: antiquewhite;
+}
+.flexorder label {
+    width: 150px;
+    text-align: end;
+}
+.order {
+    width: 100px;
+    padding: 30px 0 30px 0;
+    margin: 30px auto 30px auto;
+}
+.flexorder img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.food-img {
+    width: 170px;
+}
+.quantity {
+    width: 90px;
+    margin: auto 0;
+}
+.quantity input {
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    border: 5px inset #d3a973;
+    padding-left: 5px;
+}
+
+
+
+.order-name {
+    width: 250px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    color: #793515;
+    font-weight: bold;
+    font-style: oblique;
+}
+.order-price {
+    border: 5px double #d3a973;
+    text-align: center;
+    margin: auto 30px auto 30px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #793515;
+    color: #d3a973;
+}
+.flexorder textarea {
+    height: 50px;
+    width: 300px;
+    margin: auto 0 auto 30px;
+    border-radius: 10px;
+    border: 5px double #793515;
+    padding-left: 7px;
+}
+.flexorder textarea::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-top: 75px;
+}
+.order-button-div {
+    text-align: center;
+}
+.order-button {
+    padding: 10px 20px;
+    background-color: #793515;
+    color: #d3a973;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    transition: transform 0.2s;
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.order-button:hover {
+    background-color: #d3a973;
+    color: #793515;
+    transform: scale(1.05);
+}
+#order-now {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a72d07;
+}
+
+
+
+/* This is a member page CSS */
+
+.register {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.member {
+    font-size: 20px;
+    background-color: #d3a973;
+    border: 3px dashed #793515;
+    width: 550px;
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+}
+.flexmember {
+    display: flex;
+    padding: 20px;
+}
+.flexmember label {
+    width: 200px;
+    text-align: end;
+    margin: 0 20px 0 0;
+    padding-top: 4px;
+}
+.flexmember input {
+    height: 30px;
+}
+.member-button-div {
+    text-align: center;
+}
+.member input,textarea{
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+.member-button {
+    width: 100px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: #793515;
+    color: #d3a973;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+.member-button:hover {
+    background-color: #d3a973;
+    color: #793515;
+    transform: scale(1.05);
+}
+.loginfieldset {
+    font-size: 20px;
+    background-color: #d3a973;
+    border: 3px dashed #793515;
+    width: 550px;
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+}
+.memberlogin label {
+    width: 200px;
+    margin: 0 20px 0 0;
+    padding-top: 4px;
+}
+.memberlogin input{
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 7px;
+    height: 30px;
+    margin-top: 15px;
+    width: 200px;
+}
+.memberlogin {
+    padding: 20px;
+}
+.memberpageflex {
+    display: flex;
+    justify-content: space-around;
+}
+.center {
+    margin-left: 150px;
+}
+
+
+/* This is a About Us Page CSS*/
+
+.aboutstall {
+    font-size: 25px;
+    color: #a72d07;
+    padding: 20px 20px 20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#aboutstall {
+    font-size: 50px;
+    color: #793515;
+    text-align: center;
+    font-weight: bold;
+}
+#middle {
+    margin: 40px;
+    background-color: #d3a973;
+    border-radius: 20px;
+    padding: 35px 30px 30px 30px;
+}
+#middle img {
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 30px 40px 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.chef {
+    width: 100%;
+    font-size: 25px;
+    color: #a72d07;
+    padding: 0 20px 20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+}
+.chef img {
+    
+    width: 300px;
+    height: 350px;
+}
+.vision {
+    font-size: 50px;
+    color: #793515;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.chef p {
+    margin: 50px 30px 0 30px;
+    width: 700px;
+    text-align: end;
+}
+
+
+.reviews {
+    width: 500px;
+    border: 3px solid #793515;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px 10px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#aboutus_relative {
+    position: relative;
+    height: 500px;
+}
+#first {
+    position: absolute;
+    left: 550px;
+    top: 130px;
+}
+#second {
+    position: absolute;
+    top: 220px;
+}
+#map {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.location {
+    color: #a72d07;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin: 40px 20px 40px 30px;
+}
+
+#location img {
+    width: 50px;
+    height: 50px;
+}
+iframe {
+    width: 400px;
+    height: 400px;
+    margin: 0 0 0 50px;
+}
+
+
